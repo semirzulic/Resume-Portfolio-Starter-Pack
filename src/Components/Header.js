@@ -1,9 +1,9 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
+import 'animate.css';
+import Typewriter from "typewriter-effect";
 
 const Header = ({ data }) => {
   if (data) {
-    var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
@@ -65,9 +65,21 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+          <Typewriter
+            onInit={(typewriter)=> {
+              typewriter
+              .typeString("Hello World!")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("I am Semir Zulic.")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("I can code for ya! ")
+              .start();
+            }}
+            />
           </h1>
-          <h3>
+          <h3 class="animate__animated animate__backInLeft">
             Based in {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />

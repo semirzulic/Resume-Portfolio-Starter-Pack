@@ -1,45 +1,35 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
+    "name": "Semir Zulic",
+    "occupation": "Software Developer Engineer",
     "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "image": "ProfilePicSS.jpg",
+    "bio": "I’m a 30-year-old self-taught developer. I started learning 5 years ago. I thought I would go for a field that was stable and secure, so I chose web development. It is in the best interest of companies to hire personnel who are self-motivated and driven. I am that person. Currently employed and working in a team environment at acompany called Virgin Pulse. A team environment is efficient and productive, which I understand and appreciate. I have the ability to compromise, be respectful of others, and be a good listener as a team member. I can be a leader, when necessary, but can also be an equal player on the team if the job calls for it. I tend to do well in a team setting because I can relate to others well, have a professional demeanor, and understand what it takes to get the job done. I can help delegate tasks, compromise, and fulfill any role on the team that is needed. I am flexible in working independently or on a team, as needed by the task at hand.",
+    "contactmessage": "Get in touch with me!",
+    "email": "semirzulic92@gmail.com",
+    "phone": "+38762364474",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "Vukovije Gornje",
+      "city": "Kalesija",
+      "state": "Bosnia and Herzegovina",
+      "zip": "75265 Tojsici"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "https://www.semirzulic.com",
+    "resumedownload": "https://www.semirzulic.com/Semir_Zulic_Resume.pdf",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://www.facebook.com/semir.zulic.71",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/semir-zulic-544777140/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/semirzulic",
         "className": "fa fa-github"
       }
     ]
@@ -48,27 +38,37 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
+        "school": "JUMS ETS - Electrical Engineering Electronics - Tuzla",
+        "degree": "High School Diploma",
+        "graduated": "2006/09 - 2009/09",
         "description": "Graduated with First Class Honours"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Virgin Pulse",
+        "title": "Software Developer Engineer in Test",
+        "years": "Nov 2021 - Present",
+        "description": "Automating test cases as well as writing reusable scripts/tools that help the team to reduce repetitive efforts. Creating automation frameworks and enabling other SDETs to write tests using the framework."
+      },
+      {
+        "company": "Cape Ann Enterprises",
+        "title": "Software Developer Engineer",
+        "years": "Nov 2018 - Nov 2021 · 3 yrs 1 mo",
+        "description": " Independently developing product features, investigating and resolving production issues, and performing in-depth troubleshooting.  Capable of implementing more complicated product stories, also involved in sprint planning and story grooming to give voice to the development complexity of new stories."
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "70%"
       },
       {
-        "name": "Python",
+        "name": "Angular",
+        "level": "85%"
+      },
+      {
+        "name": "Drupal",
         "level": "85%"
       },
       {
@@ -88,34 +88,50 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Instagram Clone (React JS)",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "InstagramClone.jpg",
+        "url": "https://instagram-react-edu.vercel.app/"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Neptun Trailers (Drupal7)",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "Neptun.jpg",
+        "url": "http://neptun-trailers.ch/"
       },
       {
         "title": "LinkedIn Clone (React JS)",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "linkClone.jpg",
+        "url": "https://linkedin-clone-bd3b9.web.app/"
+      },
+      {
+        "title": "Hulu Clone (React JS)",
+        "category": "",
+        "image": "HuluClone.jpg",
+        "url": "https://hulu-react-clone.vercel.app/"
+      },
+      {
+        "title": "Olawell (Drupal 8, Angular)",
+        "category": "",
+        "image": "Olawell.jpg",
+        "url": "https://www.olawell.com/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Semir has been such an integral part of so many things that Engineering has done since he joined Olawell project. He’s played a pivotal role in the development of the Olawell project. And in everything, he approached his job in ways that were “Hungry, Humble, and Smart”! ",
+        "user": "Džana Bašić-Čičak - PhD. Candidate (CSE) | Senior Bioinformatics Lead, Human Microbiome Products"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Working and Learning with Semir has been AWESOME, he makes working/learning  so easy and approachable!",
+        "user": "Maid Mesic - Software Developer at Cape Ann Enterprises"
+      },
+      {
+        "text": "Semir is absolutely excellent, I have thoroughly enjoyed having him on my team... I would definitely recommend",
+        "user": "Samir Kahvedzic - Software Developer at Cape Ann Enterprises"
       }
     ]
   }

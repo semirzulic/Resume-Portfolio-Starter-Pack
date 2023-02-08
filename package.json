@@ -1,22 +1,26 @@
 {
   "name": "resume_starter_pack",
+  "homepage": "https://www.semirzulic.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "animate.css": "^4.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "react-typewriter": "^0.4.1",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "axe-core": "^4.4.2",
+    "cypress": "^9.7.0",
+    "cypress-axe": "^0.14.0",
+    "eslint-plugin-cypress": "^2.12.1"
   }
 }
